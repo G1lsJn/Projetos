@@ -1,0 +1,30 @@
+@mixin box-config($w, $h: auto ) {
+    width: $w;
+    height: $h;
+}
+
+@mixin flex-center($direction: row, $justify: center, $align: center, $gap: 0) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin section($p: 0, $m: 0 auto) {
+    padding: $p;
+    margin: $m;
+}
+
+@mixin text($size: 1rem, $color: black, $font: 'Segoe UI' Verdana sans-serif, $fw: 300) {
+    font-size: $size;
+    color: $color;
+    font-family: $font;
+    font-weight: $fw;
+}
+
+@mixin tituloIsometrico($top: -60px, $left: 37%) {
+    position: absolute;
+    top: $top;
+    left: $left;
+}
