@@ -1,0 +1,86 @@
+----------------------------------------- SPRINT 3 DE PYTHON -----------------------------------------
+
+GRUPO: Sijia
+
+   * Felipe Ferreira - RM553680 
+   * Gilson Dias - RM552345 
+   * Gustavo Bezerra – RM553076 
+
+
+* As principais funcionalidades desse código são: *
+
+1. Análise de Desempenho em Quizzes:
+
+   O código permite a análise do desempenho dos usuários em quizzes, 
+   calculando o número de acertos, erros, percentual de acertos, 
+   média de tempo de resposta e determinando se o usuário foi aprovado ou 
+   reprovado com base em critérios predefinidos.
+
+2. Armazenamento e Organização de Dados:
+
+   Os resultados das tentativas dos usuários são armazenados de forma organizada 
+   em um dicionário, que posteriormente é convertido em um DataFrame do Pandas. Os quizzes 
+   que estão disponíveis para serem usados no sistema são armazenados em um arquivo json e depois lidos
+   e convertidos para dataframes, assim como os resultados das tentativas. . 
+   Isso facilita a manipulação e análise dos dados coletados.
+
+3. Consulta de Desempenho de Usuários:
+
+   O código permite a consulta do desempenho de um usuário específico em um quiz. 
+   Ele exibe as estatísticas de desempenho do usuário, incluindo o número de acertos, 
+   erros, percentual de acertos, média de tempo de resposta e status (aprovado ou reprovado).
+
+4. Menu Interativo:
+   
+   O código inclui um menu interativo que permite ao usuário escolher entre diferentes opções,
+   como consultar o desempenho de um usuário, visualizar os quizzes disponíveis, 
+   visualizar o DataFrame com os dados dos usuários e sair do programa.
+
+5. Atualização da lista de quizzes:
+
+   O usuário poderar acrescentar novos quizzes no sistema, informando seu nome, ID e quantidade de questões
+
+
+Essas funcionalidades combinadas fornecem uma estrutura para analisar e acompanhar o desempenho 
+dos usuários em quizzes, facilitando a tomada de decisões e fornecendo insights valiosos sobre 
+o progresso dos usuários.
+
+
+-------------------------------------------- MODO DE USO: --------------------------------------------
+
+
+
+Para o usuário inicializar o sistema e conseguir analizar o desempenho de um usuário em 
+um determinado quiz ele deve seguir os seguintes passos:
+
+   1° Digitar o ID de um dos quizzes disponiveis que ele deseja os resultados
+
+   2° Um menu aparecerá na tela com 5 opções para serem escolhidas. 
+
+      1. Consultar desempenho do usuário
+      2. Ver quizzes disponiveis
+      3. Ver DataFrame  com dados dos usuários
+      4. Adicionar novo quiz
+      5. Sair
+
+      Essa escolha será feita a partir do momento que o usuário digitar o número da opção correspondente no campo indicado.
+
+   3° Para consultar o desempenho dos jogadores:
+
+      O usuário deve escolher a opção 1 e digitar o ID do jogador que ele deseja analisar o desempenho. 
+      Dessa forma, uma tabela será exibida com os informações do user requisitado.
+
+      Obs.: O sistema ficará em loop até o usuário digitar o número 5, que significa sair. 
+            Dessa forma, ele poderá consultar o desempenho de todos os usuários disponiveis no quiz 
+            pré determinado por ele na inicialização do programa.
+
+   4° Consulta de dados:
+
+      Assim que a inicialização foi feita o usuário através da opção '2'
+      poderá ver a tabela dos quizzes disponíveis e na opção '3' consultar os dados de todos os jogadores.
+
+   5° Adicionar novo quiz no sistema:
+
+      O usuário poderá adicionar novos quizzes no sistema ao selecionar a opção 4, 
+      logo após deverá informar o nome do quiz, seu ID e quantidade de questões. 
+      Ao finalizar o processo, uma tabela atualizada com os quizzes será apresentada.
