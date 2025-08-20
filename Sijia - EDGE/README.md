@@ -107,5 +107,5 @@ das crianças em ambientes hospitalares.
 
 # Autores
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/143201541?s=96&v=4" width=115><br><sub>Gilson Dias</sub>](https://github.com/G1lsJn) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/143757732?v=4" width=115><br><sub>Gustavo Bezerra</sub>](https://github.com/Gustavo-b017) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/168031714?v=4" width=115><br><sub>Felipe Ferreira</sub>](https://github.com/Defelopers) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/143201541?s=96&v=4" width=115><br><sub>Gilson Dias</sub>](https://github.com/GilsonJn) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/143757732?v=4" width=115><br><sub>Gustavo Bezerra</sub>](https://github.com/Gustavo-b017) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/168031714?v=4" width=115><br><sub>Felipe Ferreira</sub>](https://github.com/Defelopers) |
 | :---: | :---: | :---: |
